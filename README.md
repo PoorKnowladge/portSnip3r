@@ -22,15 +22,9 @@ Cara Menjalankan:
 3. `Pastikan Python telah terinstal di komputer Anda.`
 4. Jalankan program dengan menjalankan perintah:
 ```html
-<div style="background-color:#000000; color:#ffffff; padding:10px;">
-<h3 style="color:#ffffff;">Contoh Prompt Kode</h3>
-<pre>
-<code>
+
 python3 scan_ports.py
-</code>
-</pre>
-</div>
-\```
+
 ```
 7. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
 8. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
