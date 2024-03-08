@@ -55,7 +55,7 @@ class ScanPortsVulnerable:
         
         report_path = f"reports/laporan_{self.current_host}.txt"
         with open(report_path, "w") as file:
-            print(Color.OKBLUE + f"Host: {self.ip_address}" + "IP Address: {gethostbyname{self.ip_address}" + Color.ENDC)
+            print(Color.OKBLUE + f"Host: {self.ip_address}" + "IP Address: {gethostbyname(self.ip_address)}" + Color.ENDC)
             print(Color.OKGREEN + "Type:" + Color.ENDC)
             file.write(f"Host: {self.ip_address}\n")
             file.write("Type:\n")
