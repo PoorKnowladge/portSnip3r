@@ -9,7 +9,7 @@ Fitur Utama:
 1. Pemindaian Port: Program memungkinkan pengguna untuk memindai rentang port yang ditentukan pada host yang ditentukan.
 2. Threaded Execution: Pemindaian port dilakukan menggunakan threading untuk meningkatkan efisiensi dan kecepatan pemindaian.
 3. Penanganan Kesalahan: Program dilengkapi dengan penanganan kesalahan yang baik untuk mengatasi kondisi yang mungkin terjadi saat melakukan pemindaian port. 
-4. Laporan Hasil: Setelah pemindaian selesai, program membuat laporan hasil yang mencakup informasi tentang host yang dipindai, daftar kerentanan yang terkait, dan daftar port yang terbuka.
+4. Laporan Hasil: Setelah pemindaian selesai, program membuat laporan hasil yang mencakup informasi tentang host yang dipindai, dan daftar port yang terbuka.
 
 Cara Penggunaan:
 
