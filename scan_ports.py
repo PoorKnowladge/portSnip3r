@@ -11,6 +11,7 @@ def clearX():
     elif os.name == 'posix':
         os.system('clear')
 
+clearX()
 
 def banner():
     banner = f"""{Color.BOLD}{Color.WARNING}
@@ -44,7 +45,6 @@ if __name__ == "__main__":
             start_port = int(input(Color.HEADER + "[+] Input port awal : " + Color.ENDC));print("")
             end_port = int(input(Color.HEADER + "[+] Input port akhir : " + Color.ENDC));print("")
             interval = float(input(Color.HEADER + "[+] Tentukan berapa lama waktu yang akan Anda alokasikan untuk pemindaian : " + Color.ENDC))
-            clearX()
             print("")
             host = main.ScanPortsVulnerable(target, ["Scan Port"], [])
             host.scan_open_ports(target, start_port, end_port, interval)
