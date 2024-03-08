@@ -17,9 +17,9 @@ Pengguna diminta untuk memasukkan target yang ingin dipindai dan rentang port ya
 
 Cara Menjalankan:
 
+Clone repo di bawah ini:
 ```html
-
-https://github.com/PoorKnowladge/portSnip3r.git
+git clone https://github.com/PoorKnowladge/portSnip3r.git
 ```
 
 ```html
