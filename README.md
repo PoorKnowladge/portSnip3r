@@ -24,7 +24,7 @@ git clone https://github.com/PoorKnowladge/portSnip3r.git
 cd porSnip3r
 python3 scan_ports.py
 ```
-7. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
-8. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
+5. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
+6. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
 
 Dengan menggunakan Scan Ports Vulnerability, pengguna dapat dengan mudah melakukan pemindaian port untuk mengidentifikasi potensi kerentanan keamanan dalam jaringan mereka dan meningkatkan tingkat keamanan sistem mereka.
