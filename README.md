@@ -23,6 +23,6 @@ Cara Menjalankan:
 3. `Pastikan Python telah terinstal di komputer Anda.`
 4. Jalankan program dengan menjalankan perintah `python scan_ports.py.`
 5. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
-6. Untuk alokasi waktu di sarankan 0.1, 0.001 dan 1.0
+6. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
 
 Dengan menggunakan Scan Ports Vulnerability, pengguna dapat dengan mudah melakukan pemindaian port untuk mengidentifikasi potensi kerentanan keamanan dalam jaringan mereka dan meningkatkan tingkat keamanan sistem mereka.
