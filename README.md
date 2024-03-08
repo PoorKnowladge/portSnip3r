@@ -1,4 +1,3 @@
-
 Scan Ports Vulnerability
 
 Deskripsi:
@@ -26,3 +25,16 @@ Cara Menjalankan:
 6. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
 
 Dengan menggunakan Scan Ports Vulnerability, pengguna dapat dengan mudah melakukan pemindaian port untuk mengidentifikasi potensi kerentanan keamanan dalam jaringan mereka dan meningkatkan tingkat keamanan sistem mereka.
+
+
+```html
+<div style="background-color:#000000; color:#ffffff; padding:10px;">
+<h3 style="color:#ffffff;">Contoh Prompt Kode</h3>
+<pre>
+<code>
+// Tulis kode di sini
+def greet():
+    print("Hello, world!")
+</code>
+</pre>
+</div>
