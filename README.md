@@ -20,8 +20,8 @@ Cara Menjalankan:
 1. Lakukan git clone dari repositori ini atau unduh secara langsung.
 2. Buka terminal atau command prompt dan arahkan ke direktori tempat kode program disimpan.
 3. `Pastikan Python telah terinstal di komputer Anda.`
-4. Jalankan program dengan menjalankan perintah: 
-```python3 scan_ports.py
+4. Jalankan program dengan menjalankan perintah:
+```python3 scan_ports.py```
 7. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
 8. Untuk alokasi waktu di sarankan 0.1, dan 1.0 kalau lebih akan terjadi error to many open files
 
