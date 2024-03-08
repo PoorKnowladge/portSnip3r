@@ -35,13 +35,15 @@ def banner():
 {Color.ENDC}╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   {Color.ENDC}{Color.FAIL}╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═════╝ ╚═╝  ╚═╝{Color.ENDC}
 
  Author:
------------------------+------------------------------------------------+
-| Email                | Informasi                                      |
-+======================+================================================+
-| gojoeath63@gmail.com | Nama: grimEnigma                               |
-|                      | Instagram: bitswif                             |
-|                      | Channel WhatsApp: https://bit.ly/cyberShade    |
-+----------------------+------------------------------------------------+
+_________
+
+{Color.OKGREEN}-----------------------{Color.ENDC}+------------------------------------------------+
+{Color.OKGREEN}| Email                {Color.ENDC}| Informasi                                      |
+{Color.OKGREEN}+======================{Color.ENDC}+================================================+
+{Color.OKGREEN}| gojoeath63@gmail.com {Color.ENDC}| Nama: grimEnigma                               |
+{Color.OKGREEN}|                      {Color.ENDC}| Instagram: bitswif                             |
+{Color.OKGREEN}|                      {Color.ENDC}| Channel WhatsApp: https://bit.ly/cyberShade    |
+{Color.OKGREEN}+----------------------{Color.ENDC}+------------------------------------------------+
     {Color.BOLD}{Color.ENDC}"""
     print(banner)
 
