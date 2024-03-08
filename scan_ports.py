@@ -13,20 +13,41 @@ def clearX():
 
 clearX()
 
+# def banner():
+#     banner = f"""{Color.BOLD}{Color.OKGREEN}
+# ██████╗  ██████╗ ██████╗ ████████╗███████╗███╗   ██╗██╗██████╗ ██████╗ ██████╗ 
+# ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝████╗  ██║██║██╔══██╗╚════██╗██╔══██╗
+# ██████╔╝██║   ██║██████╔╝   ██║   ███████╗██╔██╗ ██║██║██████╔╝ █████╔╝██████╔╝
+# ██╔═══╝ ██║   ██║██╔══██╗   ██║   ╚════██║██║╚██╗██║██║██╔═══╝  ╚═══██╗██╔══██╗
+# ██║     ╚██████╔╝██║  ██║   ██║   ███████║██║ ╚████║██║██║     ██████╔╝██║  ██║
+# ╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═════╝ ╚═╝  ╚═╝
+
+#     {Color.BOLD}{Color.ENDC}"""
+#     print(banner)
+
 def banner():
-    banner = f"""{Color.BOLD}{Color.WARNING}
-    _________                    _____________      _____        ________       
-______/_/______________________  /__  ___/_________(_)_________|__  /_______
-____/_/ ___  __ \  __ \_  ___/  __/____ \__  __ \_  /___  __ \__/_ <__  ___/
-__/_/   __  /_/ / /_/ /  /   / /_ ____/ /_  / / /  / __  /_/ /___/ /_  /    
-/_/     _  .___/\____//_/    \__/ /____/ /_/ /_//_/  _  .___//____/ /_/     
-        /_/                                          /_/
+    banner = f"""{Color.BOLD}{Color.FAIL}
+{Color.FAIL}██████╗  ██████╗ ██████╗ ████████╗{Color.ENDC}{Color.ENDC}███████╗███╗   ██╗██╗██████╗ ██████╗ ██████╗{Color.ENDC}
+{Color.FAIL}██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝{Color.ENDC}{Color.ENDC}██╔════╝████╗  ██║██║██╔══██╗╚════██╗██╔══██╗{Color.ENDC}
+{Color.FAIL}██████╔╝██║   ██║██████╔╝   ██║   {Color.ENDC}{Color.ENDC}███████╗██╔██╗ ██║██║██████╔╝ █████╔╝██████╔╝{Color.ENDC}
+{Color.ENDC}██╔═══╝ ██║   ██║██╔══██╗   ██║   {Color.ENDC}{Color.FAIL}╚════██║██║╚██╗██║██║██╔═══╝  ╚═══██╗██╔══██╗{Color.ENDC}
+{Color.ENDC}██║     ╚██████╔╝██║  ██║   ██║   {Color.ENDC}{Color.FAIL}███████║██║ ╚████║██║██║     ██████╔╝██║  ██║{Color.ENDC}
+{Color.ENDC}╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   {Color.ENDC}{Color.FAIL}╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═════╝ ╚═╝  ╚═╝{Color.ENDC}
+
+ Author:
+-----------------------+------------------------------------------------+
+| Email                | Informasi                                      |
++======================+================================================+
+| gojoeath63@gmail.com | Nama: grimEnigma                               |
+|                      | Instagram: bitswif                             |
+|                      | Channel WhatsApp: https://bit.ly/cyberShade    |
++----------------------+------------------------------------------------+
     {Color.BOLD}{Color.ENDC}"""
     print(banner)
 
 def printX(text):
     for char in text:
-        print(f"{Color.BOLD}{Color.WARNING}{char}{Color.ENDC}", end='', flush=True)  # Mencetak karakter tanpa newline dan langsung ke output
+        print(f"{Color.BOLD}{Color.WARNING}{char}{Color.BOLD}{Color.ENDC}", end='', flush=True)  # Mencetak karakter tanpa newline dan langsung ke output
         sleep(random.uniform(0.1, 0.3))
 
 def is_valid_target(target):
@@ -49,7 +70,7 @@ if __name__ == "__main__":
             host = main.ScanPortsVulnerable(target, ["Scan Port"], [])
             host.scan_open_ports(target, start_port, end_port, interval)
             host.report_vulnerabilities()
-            printX("[!] Report / Laporan scan ada di direktori reports")
+            printX(f"[!] Report / Laporan scan ada di direktori reports")
             print("")
             sleep(3.0)
             clearX()
