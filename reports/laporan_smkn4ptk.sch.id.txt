@@ -1,5 +1,9 @@
+HASIL AKAN TERLIHAT SEPERTI INI
+
 Host: smkn4ptk.sch.id
 Type:
  - Scan Port
 Open Ports:
-No open ports found
+ - 21
+ - 22
+ - 80
