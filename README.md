@@ -16,8 +16,6 @@ Cara Penggunaan:
 Pengguna diminta untuk memasukkan target yang ingin dipindai dan rentang port yang ingin diperiksa. Program akan melakukan pemindaian port menggunakan teknik threading. Setelah selesai, program akan menyimpan laporan hasil pemindaian dalam file teks.
 
 Cara Menjalankan:
-
-Clone repo di bawah ini:
 ```html
 git clone https://github.com/PoorKnowladge/portSnip3r.git
 ```
