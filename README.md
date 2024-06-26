@@ -21,7 +21,7 @@ git clone https://github.com/PoorKnowladge/portSnip3r.git
 ```
 
 ```html
-cd porSnip3r
+cd portSnip3r
 python3 scan_ports.py
 ```
 5. Ikuti petunjuk yang muncul untuk memasukkan target, rentang port, dan nama file laporan.
